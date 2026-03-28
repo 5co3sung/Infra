@@ -1303,15 +1303,3 @@ Error: unexpected EOF: lora
 
 ---
 
-## 15. 원문 기준 확인 필요 메모
-
-아래 항목은 원문 그대로 두었으며, 나중에 검토가 필요할 수 있습니다.
-
-- `GPU가 필요한 이유`, `RTX3090에서 90` 설명은 원문 메모성 문장
-- `올라마 고룬이우` 문구
-- `build-essential` 패키지명 사용
-- `update-alternative --config python3` 표기
-- `vi ~/.virc`
-- `export PYTHONPATH=/usr/bin/python3`
-- TensorFlow / ROCm / PyTorch 호환성 관련 문장들은 원문 메모 기준
-- `adapter ./train_ollama.txt` 와 `parameter lora true` 설정 후 발생한 `unexpected EOF: lora` 에러는 해결되지 않은 상태로 기록됨
