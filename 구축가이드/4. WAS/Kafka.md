@@ -111,11 +111,11 @@ kafka-server-start.sh -daemon /usr/local/kafka/config/server.properties
 - 토픽 리스트에 `test`가 보이면 정상
 
 ```bash
-kafka-topics.sh --create --bootstrap-server goh-kafka-prod001:9092,goh-kafka-prod002:9092,goh-kafka-prod003:9092 --topic test
-kafka-topics.sh --bootstrap-server goh-kafka-prod001:9092,goh-kafka-prod002:9092,goh-kafka-prod003:9092 --topic test --list
+kafka-topics.sh --create --bootstrap-server Kafka-svr001:9092,Kafka-svr002:9092,Kafka-svr003:9092 --topic test
+kafka-topics.sh --bootstrap-server Kafka-svr001:9092,Kafka-svr002:9092,Kafka-svr003:9092 --topic test --list
 
 # (예시)
-./kafka-topics.sh --create --bootstrap-server 172.20.140.40:9092,172.20.140.41:9092,172.20.140.42:9092 --topic test
+./kafka-topics.sh --create --bootstrap-server (Kafka-svr001IP):9092,(Kafka-svr002IP):9092,(Kafka-svr002IP):9092 --topic test
 ```
 
 ---
@@ -132,4 +132,4 @@ kafka-topics.sh --bootstrap-server goh-kafka-prod001:9092,goh-kafka-prod002:9092
 - `controller.quorum.voters=1@브로커서버#1-IP:9093,2@브로커서버#2-IP.31:9093,3@브로커서버 #3-IP:9093`
 - `listeners=PLAINTEXT://localhost:9092`
 - `inter.broker.listener.name=PLAINTEXT`
-- `advertised.listeners=PLAINTEXT://172.20.140.40:9092` (브로커 서버 본인 IP)
+- `advertised.listeners=PLAINTEXT://브로커서버:9092` (브로커 서버 본인 IP)
