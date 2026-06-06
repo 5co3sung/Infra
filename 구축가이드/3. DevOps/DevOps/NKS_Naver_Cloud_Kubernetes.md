@@ -1,4 +1,4 @@
-# NKS(Naver Cloud Kubernetis)
+﻿# NKS(Naver Cloud Kubernetes)
 
 ---
 
@@ -96,17 +96,17 @@ New-Item -ItemType Directory -Path C:\bin -Force
 Copy-Item .\ncp-iam-authenticator.exe C:\bin\
 ```
 
-![image.png](NKS(Naver%20Cloud%20Kubernetis)/image.png)
+![image.png](NKS_Naver_Cloud_Kubernetes/image.png)
 
 환경 변수(PATHEXT/PATH) 등록이 필요하면 시스템 환경 변수에 C:bin 경로를 추가하고, 새 PowerShell 세션에서 인식되는지 확인합니다.
 
-![image.png](NKS(Naver%20Cloud%20Kubernetis)/image%201.png)
+![image.png](NKS_Naver_Cloud_Kubernetes/image%201.png)
 
-![image.png](NKS(Naver%20Cloud%20Kubernetis)/image%202.png)
+![image.png](NKS_Naver_Cloud_Kubernetes/image%202.png)
 
-![image.png](NKS(Naver%20Cloud%20Kubernetis)/image%203.png)
+![image.png](NKS_Naver_Cloud_Kubernetes/image%203.png)
 
-![image.png](NKS(Naver%20Cloud%20Kubernetis)/image%204.png)
+![image.png](NKS_Naver_Cloud_Kubernetes/image%204.png)
 
 ---
 
@@ -172,7 +172,7 @@ kubectl get nodes --kubeconfig C:\dev\.kube\kubeconfig.yaml
 
 ```
 
-![image.png](NKS(Naver%20Cloud%20Kubernetis)/image%205.png)
+![image.png](NKS_Naver_Cloud_Kubernetes/image%205.png)
 
 ### 4️⃣ ncp-iam-authenticator 경로 문제 해결
 
@@ -183,7 +183,7 @@ kubectl get nodes --kubeconfig C:\dev\.kube\kubeconfig.yaml
 
 예:
 
-![image.png](NKS(Naver%20Cloud%20Kubernetis)/image%206.png)
+![image.png](NKS_Naver_Cloud_Kubernetes/image%206.png)
 
 ---
 
@@ -193,7 +193,7 @@ kubectl get nodes --kubeconfig C:\dev\.kube\kubeconfig.yaml
 kubectl get nodes --kubeconfig C:\dev\.kube\kubeconfig.yaml
 ```
 
-![image.png](NKS(Naver%20Cloud%20Kubernetis)/image%207.png)
+![image.png](NKS_Naver_Cloud_Kubernetes/image%207.png)
 
 - 위 명령어로 클러스터 노드 상태 확인 가능
 
@@ -257,14 +257,15 @@ kubectl --kubeconfig dev_kubeconfig.yaml edit svc argocd-server -n argocd
 
 ```
 
-![image.png](NKS(Naver%20Cloud%20Kubernetis)/image%208.png)
+![image.png](NKS_Naver_Cloud_Kubernetes/image%208.png)
 
-[ArgoCD 구축](NKS(Naver%20Cloud%20Kubernetis)/ArgoCD%20%EA%B5%AC%EC%B6%95%20323ae5fab89d804f9079d02689a25632.md)
+[ArgoCD 구축](NKS_Naver_Cloud_Kubernetes/ArgoCD%20구축.md)
 
-[Istio 구축](NKS(Naver%20Cloud%20Kubernetis)/Istio%20%EA%B5%AC%EC%B6%95%20323ae5fab89d809e98adf17323a30f8f.md)
+[Istio 구축](NKS_Naver_Cloud_Kubernetes/Istio%20구축.md)
 
-[Ingress Nginx](NKS(Naver%20Cloud%20Kubernetis)/Ingress%20Nginx%20324ae5fab89d80fda719d8ec66dbfbe3.md)
+[Ingress Nginx](NKS_Naver_Cloud_Kubernetes/Ingress%20Nginx.md)
 
-[Pod에 NAS 마운트 하는 방법](NKS(Naver%20Cloud%20Kubernetis)/Pod%EC%97%90%20NAS%20%EB%A7%88%EC%9A%B4%ED%8A%B8%20%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%20324ae5fab89d80e0a2ecf6267fa7009a.md)
+[Pod에 NAS 마운트 하는 방법](NKS_Naver_Cloud_Kubernetes/Pod에%20NAS%20마운트%20하는%20방법.md)
 
-[쿠버네티스 노드풀을 나누어서 구축 하는 경우](NKS(Naver%20Cloud%20Kubernetis)/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4%20%EB%85%B8%EB%93%9C%ED%92%80%EC%9D%84%20%EB%82%98%EB%88%84%EC%96%B4%EC%84%9C%20%EA%B5%AC%EC%B6%95%20%ED%95%98%EB%8A%94%20%EA%B2%BD%EC%9A%B0%20324ae5fab89d80998978d3fc739e4ae2.md)
+[쿠버네티스 노드풀을 나누어서 구축 하는 경우](NKS_Naver_Cloud_Kubernetes/쿠버네티스%20노드풀을%20나누어서%20구축%20하는%20경우.md)
+
