@@ -96,17 +96,17 @@ New-Item -ItemType Directory -Path C:\bin -Force
 Copy-Item .\ncp-iam-authenticator.exe C:\bin\
 ```
 
-![image.png](NKS_Naver_Cloud_Kubernetes/image.png)
+![image.png](NKS_네이버클라우드_쿠버네티스/image.png)
 
 환경 변수(PATHEXT/PATH) 등록이 필요하면 시스템 환경 변수에 C:bin 경로를 추가하고, 새 PowerShell 세션에서 인식되는지 확인합니다.
 
-![image.png](NKS_Naver_Cloud_Kubernetes/image%201.png)
+![image.png](NKS_네이버클라우드_쿠버네티스/image%201.png)
 
-![image.png](NKS_Naver_Cloud_Kubernetes/image%202.png)
+![image.png](NKS_네이버클라우드_쿠버네티스/image%202.png)
 
-![image.png](NKS_Naver_Cloud_Kubernetes/image%203.png)
+![image.png](NKS_네이버클라우드_쿠버네티스/image%203.png)
 
-![image.png](NKS_Naver_Cloud_Kubernetes/image%204.png)
+![image.png](NKS_네이버클라우드_쿠버네티스/image%204.png)
 
 ---
 
@@ -172,7 +172,7 @@ kubectl get nodes --kubeconfig C:\dev\.kube\kubeconfig.yaml
 
 ```
 
-![image.png](NKS_Naver_Cloud_Kubernetes/image%205.png)
+![image.png](NKS_네이버클라우드_쿠버네티스/image%205.png)
 
 ### 4️⃣ ncp-iam-authenticator 경로 문제 해결
 
@@ -183,7 +183,7 @@ kubectl get nodes --kubeconfig C:\dev\.kube\kubeconfig.yaml
 
 예:
 
-![image.png](NKS_Naver_Cloud_Kubernetes/image%206.png)
+![image.png](NKS_네이버클라우드_쿠버네티스/image%206.png)
 
 ---
 
@@ -193,7 +193,7 @@ kubectl get nodes --kubeconfig C:\dev\.kube\kubeconfig.yaml
 kubectl get nodes --kubeconfig C:\dev\.kube\kubeconfig.yaml
 ```
 
-![image.png](NKS_Naver_Cloud_Kubernetes/image%207.png)
+![image.png](NKS_네이버클라우드_쿠버네티스/image%207.png)
 
 - 위 명령어로 클러스터 노드 상태 확인 가능
 
@@ -257,15 +257,15 @@ kubectl --kubeconfig dev_kubeconfig.yaml edit svc argocd-server -n argocd
 
 ```
 
-![image.png](NKS_Naver_Cloud_Kubernetes/image%208.png)
+![image.png](NKS_네이버클라우드_쿠버네티스/image%208.png)
 
-[ArgoCD 구축](NKS_Naver_Cloud_Kubernetes/ArgoCD%20구축.md)
+[ArgoCD 구축](NKS_네이버클라우드_쿠버네티스/ArgoCD%20구축.md)
 
-[Istio 구축](NKS_Naver_Cloud_Kubernetes/Istio%20구축.md)
+[Istio 구축](NKS_네이버클라우드_쿠버네티스/Istio%20구축.md)
 
-[Ingress Nginx](NKS_Naver_Cloud_Kubernetes/Ingress%20Nginx.md)
+[Ingress Nginx](NKS_네이버클라우드_쿠버네티스/Ingress%20Nginx.md)
 
-[Pod에 NAS 마운트 하는 방법](NKS_Naver_Cloud_Kubernetes/Pod에%20NAS%20마운트%20하는%20방법.md)
+[Pod에 NAS 마운트 하는 방법](NKS_네이버클라우드_쿠버네티스/Pod에%20NAS%20마운트%20하는%20방법.md)
 
-[쿠버네티스 노드풀을 나누어서 구축 하는 경우](NKS_Naver_Cloud_Kubernetes/쿠버네티스%20노드풀을%20나누어서%20구축%20하는%20경우.md)
+[쿠버네티스 노드풀을 나누어서 구축 하는 경우](NKS_네이버클라우드_쿠버네티스/쿠버네티스%20노드풀을%20나누어서%20구축%20하는%20경우.md)
 

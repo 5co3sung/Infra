@@ -1,21 +1,21 @@
-# 실무운영
+# 실무 운영 정리
 
-실무 운영 과정에서 반복적으로 다루는 인프라 작업을 채용 포트폴리오용으로 재구성한 문서 모음입니다.
-각 문서는 단순 명령어보다 작업 배경, 판단 이유, 검증 방법, 운영 체크포인트를 중심으로 작성했습니다.
+실무에서 반복적으로 다루는 인프라 작업을 운영 관점으로 다시 정리한 문서 모음입니다.
+명령어를 나열하기보다 작업 배경, 선택 이유, 검증 방법, 운영 체크포인트가 보이도록 구성했습니다.
 
-## Categories
+## 분류
 
-| Category | Description |
+| 분류 | 설명 |
 | --- | --- |
-| [01_linux_security](./01_linux_security/) | Linux 서버 베이스라인, SSH/계정 정책, 보안 도구, 취약점 점검 |
-| [02_web_proxy](./02_web_proxy/) | Nginx 설치 전략, Reverse Proxy, HTTPS, Header Hardening |
-| [03_ha_failover](./03_ha_failover/) | Keepalived, PostgreSQL Replication, MariaDB MHA, Redis Sentinel |
-| [04_database_operations](./04_database_operations/) | DB 이관, 백업, 문자셋 정합성, 감사 로그/트리거 |
-| [05_devops_cicd](./05_devops_cicd/) | Jenkins, GitLab, 수동/자동 배포 운영 런북 |
-| [06_kubernetes_container_cloud](./06_kubernetes_container_cloud/) | Kubernetes 접근 구성, Docker, Cloud Function, Cloud Native 운영 |
-| [07_observability_performance](./07_observability_performance/) | Prometheus, Grafana, Jennifer, NGrinder 기반 관측/성능 점검 |
+| [01_리눅스_보안](./01_리눅스_보안/) | Linux 서버 기본 설정, SSH/계정 정책, 보안 도구, 취약점 점검 |
+| [02_웹프록시_Nginx](./02_웹프록시_Nginx/) | Nginx 설치 전략, Reverse Proxy, HTTPS, Header Hardening |
+| [03_이중화_장애전환](./03_이중화_장애전환/) | Keepalived, PostgreSQL Replication, MariaDB MHA, Redis Sentinel |
+| [04_DB_운영](./04_DB_운영/) | DB 이관, 백업, 문자셋 정합성, 감사 로그/트리거 |
+| [05_배포_CICD](./05_배포_CICD/) | Jenkins, GitLab, 수동/자동 배포 운영 런북 |
+| [06_쿠버네티스_클라우드](./06_쿠버네티스_클라우드/) | Kubernetes 접근 구성, Docker, Cloud Function, Cloud Native 운영 |
+| [07_모니터링_성능점검](./07_모니터링_성능점검/) | Prometheus, Grafana, Jennifer, NGrinder 기반 관측/성능 점검 |
 
-## Document Template
+## 작성 기준
 
 각 문서는 가능한 한 아래 흐름을 따릅니다.
 
@@ -29,4 +29,4 @@
 8. 결과 및 운영 효과
 9. 운영 체크포인트 / 트러블슈팅
 
-자세한 작성 기준은 [document_standard.md](./document_standard.md)를 참고합니다.
+자세한 작성 기준은 [문서_작성_기준.md](./문서_작성_기준.md)를 참고합니다.
