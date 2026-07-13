@@ -4,10 +4,10 @@ DB 운영, 이관, 백업, 문자셋 정합성, 감사 로그 설정을 정리�
 
 ## 문서
 
-- [db_migration_runbook.md](./db_migration_runbook.md)
-- [mariadb_charset_migration.md](./mariadb_charset_migration.md)
-- [mariadb_trigger_and_audit_notes.md](./mariadb_trigger_and_audit_notes.md)
-- [database_backup_retention_notes.md](./database_backup_retention_notes.md)
+- [DB_이관_작업순서.md](./DB_이관_작업순서.md)
+- [MariaDB_문자셋_변경.md](./MariaDB_문자셋_변경.md)
+- [MariaDB_트리거_감사로그.md](./MariaDB_트리거_감사로그.md)
+- [DB_백업_보관기준.md](./DB_백업_보관기준.md)
 
 ## 정리 포인트
 

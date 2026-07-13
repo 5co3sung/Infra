@@ -4,10 +4,10 @@
 
 ## 문서
 
-- [keepalived_vip_failover.md](./keepalived_vip_failover.md)
-- [postgresql_replication_and_pg_auto_failover.md](./postgresql_replication_and_pg_auto_failover.md)
-- [mariadb_mha_overview.md](./mariadb_mha_overview.md)
-- [redis_sentinel_operations.md](./redis_sentinel_operations.md)
+- [Keepalived_VIP_장애전환.md](./Keepalived_VIP_장애전환.md)
+- [PostgreSQL_복제_pg_auto_failover.md](./PostgreSQL_복제_pg_auto_failover.md)
+- [MariaDB_MHA_구성_메모.md](./MariaDB_MHA_구성_메모.md)
+- [Redis_Sentinel_운영메모.md](./Redis_Sentinel_운영메모.md)
 
 ## 정리 포인트
 

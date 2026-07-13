@@ -21,13 +21,13 @@
 
 | 구분 | 문서 | 메모 |
 | --- | --- | --- |
-| 리눅스 | [Rocky Linux 기본 설정](./실무운영/01_리눅스_보안/rocky_linux_baseline_and_hardening.md) | 새 서버 작업 전에 자주 확인하는 항목 |
-| Nginx | [WAS 경로 프록시](./실무운영/02_웹프록시_Nginx/nginx_reverse_proxy_for_was_path.md) | WAS 포트를 직접 열지 않고 Nginx에서 경로 제어 |
-| DB | [DB 이관 순서](./실무운영/04_DB_운영/db_migration_runbook.md) | 백업, 중지, 이관, 검증 순서 정리 |
-| 이중화 | [PostgreSQL 복제와 Failover](./실무운영/03_이중화_장애전환/postgresql_replication_and_pg_auto_failover.md) | 복제 구성과 장애 전환 확인 포인트 |
-| 배포 | [수동 배포 메모](./실무운영/05_배포_CICD/application_deployment_runbook.md) | 배포 전후 확인할 것들 |
-| Kubernetes | [NCP Kubernetes 접근](./실무운영/06_쿠버네티스_클라우드/ncp_kubernetes_access_setup.md) | kubeconfig와 인증 도구 설정 |
-| 모니터링 | [Nginx 메트릭 수집](./실무운영/07_모니터링_성능점검/nginx_prometheus_grafana_notes.md) | Prometheus/Grafana 연동 메모 |
+| 리눅스 | [Rocky Linux 기본 설정](./실무운영/01_리눅스_보안/Rocky_Linux_기본설정_보안점검.md) | 새 서버 작업 전에 자주 확인하는 항목 |
+| Nginx | [WAS 경로 프록시](./실무운영/02_웹프록시_Nginx/Nginx_WAS_경로_프록시.md) | WAS 포트를 직접 열지 않고 Nginx에서 경로 제어 |
+| DB | [DB 이관 순서](./실무운영/04_DB_운영/DB_이관_작업순서.md) | 백업, 중지, 이관, 검증 순서 정리 |
+| 이중화 | [PostgreSQL 복제와 Failover](./실무운영/03_이중화_장애전환/PostgreSQL_복제_pg_auto_failover.md) | 복제 구성과 장애 전환 확인 포인트 |
+| 배포 | [수동 배포 메모](./실무운영/05_배포_CICD/애플리케이션_배포_작업순서.md) | 배포 전후 확인할 것들 |
+| Kubernetes | [NCP Kubernetes 접근](./실무운영/06_쿠버네티스_클라우드/NCP_Kubernetes_접근설정.md) | kubeconfig와 인증 도구 설정 |
+| 모니터링 | [Nginx 메트릭 수집](./실무운영/07_모니터링_성능점검/Nginx_Prometheus_Grafana_메트릭수집.md) | Prometheus/Grafana 연동 메모 |
 
 ## 폴더 구조
 

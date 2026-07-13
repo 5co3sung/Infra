@@ -9,7 +9,7 @@ Nginx를 신규 구축할 때 단순 설치 명령이 아니라, 어떤 저장�
 
 ## 환경
 - Rocky Linux 계열
-- Nginx 1.25 계열 검토
+- Nginx 1.30.3 계열 검토
 - Reverse Proxy / Upstream 구성 예정 서버
 
 ## 확인할 것
