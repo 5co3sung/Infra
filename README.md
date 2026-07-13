@@ -56,13 +56,3 @@
     ├── 4. WAS/
     └── 5. AI/
 ```
-
-## 이력서에 적을 수 있는 요약
-
-```text
-인프라 운영 포트폴리오 정리
-- Linux 서버 보안 베이스라인, Nginx Reverse Proxy/Hardening, DB 이중화, CI/CD, Kubernetes, 모니터링 운영 문서화
-- PostgreSQL Replication/pg_auto_failover, MariaDB MHA, Redis Sentinel, Keepalived 등 고가용성 구성 요소 학습 및 운영 관점 정리
-- 단순 설치 절차가 아닌 작업 배경, 요구사항, 검증 방법, 운영 체크포인트 중심의 런북 형태로 정리
-- 기존 Linux/Kubernetes 운영 경험을 바탕으로 클라우드 인프라 운영 환경에 빠르게 적응하는 것을 목표로 학습 중
-```
