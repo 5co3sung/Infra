@@ -4,9 +4,9 @@ Linux 서버를 운영 환경에 투입하기 전 적용하는 기본 설정과 
 
 ## 문서
 
-- [rocky_linux_baseline_and_hardening.md](./rocky_linux_baseline_and_hardening.md)
-- [openssl_upgrade_notes.md](./openssl_upgrade_notes.md)
-- [yara_installation_notes.md](./yara_installation_notes.md)
+- [Rocky_Linux_기본설정_보안점검.md](./Rocky_Linux_기본설정_보안점검.md)
+- [OpenSSL_업그레이드_메모.md](./OpenSSL_업그레이드_메모.md)
+- [YARA_설치_메모.md](./YARA_설치_메모.md)
 
 ## 정리 포인트
 

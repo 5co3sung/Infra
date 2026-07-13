@@ -4,10 +4,10 @@ Nginx 기반 웹 프록시와 보안 설정을 정리한 영역입니다.
 
 ## 문서
 
-- [nginx_installation_strategy.md](./nginx_installation_strategy.md)
-- [nginx_reverse_proxy_for_was_path.md](./nginx_reverse_proxy_for_was_path.md)
-- [nginx_header_hardening.md](./nginx_header_hardening.md)
-- [nginx_security_checklist.md](./nginx_security_checklist.md)
+- [Nginx_설치방식_검토.md](./Nginx_설치방식_검토.md)
+- [Nginx_WAS_경로_프록시.md](./Nginx_WAS_경로_프록시.md)
+- [Nginx_헤더_보안설정.md](./Nginx_헤더_보안설정.md)
+- [Nginx_보안점검_체크리스트.md](./Nginx_보안점검_체크리스트.md)
 
 ## 정리 포인트
 

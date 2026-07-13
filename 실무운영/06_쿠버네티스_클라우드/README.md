@@ -4,9 +4,9 @@ Kubernetes, Docker, Cloud Function 등 Cloud Native 운영 요소를 정리한 �
 
 ## 문서
 
-- [ncp_kubernetes_access_setup.md](./ncp_kubernetes_access_setup.md)
-- [docker_offline_installation_rocky.md](./docker_offline_installation_rocky.md)
-- [cloud_function_basic_notes.md](./cloud_function_basic_notes.md)
+- [NCP_Kubernetes_접근설정.md](./NCP_Kubernetes_접근설정.md)
+- [Docker_오프라인_설치_Rocky.md](./Docker_오프라인_설치_Rocky.md)
+- [Cloud_Function_기본메모.md](./Cloud_Function_기본메모.md)
 
 ## 정리 포인트
 

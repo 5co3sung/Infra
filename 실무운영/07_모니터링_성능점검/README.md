@@ -4,9 +4,9 @@
 
 ## 문서
 
-- [nginx_prometheus_grafana_notes.md](./nginx_prometheus_grafana_notes.md)
-- [jennifer_alerting_notes.md](./jennifer_alerting_notes.md)
-- [ngrinder_installation_and_usage.md](./ngrinder_installation_and_usage.md)
+- [Nginx_Prometheus_Grafana_메트릭수집.md](./Nginx_Prometheus_Grafana_메트릭수집.md)
+- [Jennifer_알림설정.md](./Jennifer_알림설정.md)
+- [NGrinder_설치_사용.md](./NGrinder_설치_사용.md)
 
 ## 정리 포인트
 
