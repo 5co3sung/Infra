@@ -14,5 +14,6 @@
 | [05_배포_CICD](./05_배포_CICD/) | Jenkins, GitLab, 배포 절차 |
 | [06_쿠버네티스_클라우드](./06_쿠버네티스_클라우드/) | Kubernetes 접근, Docker, Cloud Function |
 | [07_모니터링_성능점검](./07_모니터링_성능점검/) | Prometheus, Grafana, Jennifer, NGrinder |
+| [08_장애대응](./08_장애대응/) | WAS 우회, API 접속 오류, 인증서 문제 대응 |
 
 각 문서는 완성된 매뉴얼이라기보다, 실제 작업하면서 다시 확인하려고 정리한 운영 메모에 가깝습니다.

@@ -16,6 +16,7 @@
 | 배포 | Jenkins, GitLab, 수동 배포 절차 |
 | Kubernetes | NCP Kubernetes, Docker, ArgoCD, Ingress |
 | 모니터링 | Prometheus, Grafana, Jennifer, NGrinder |
+| 장애 대응 | WAS 우회, API 커넥션 풀 포화, TLS 인증서 오류 |
 
 ## 먼저 볼 만한 문서
 
@@ -28,6 +29,7 @@
 | 배포 | [수동 배포 메모](./실무운영/05_배포_CICD/애플리케이션_배포_작업순서.md) | 배포 전후 확인할 것들 |
 | Kubernetes | [NCP Kubernetes 접근](./실무운영/06_쿠버네티스_클라우드/NCP_Kubernetes_접근설정.md) | kubeconfig와 인증 도구 설정 |
 | 모니터링 | [Nginx 메트릭 수집](./실무운영/07_모니터링_성능점검/Nginx_Prometheus_Grafana_메트릭수집.md) | Prometheus/Grafana 연동 메모 |
+| 장애 대응 | [장애 대응 기록](./실무운영/08_장애대응/README.md) | 장애 때 어디를 확인했고 어떻게 조치했는지 정리 |
 
 ## 폴더 구조
 
@@ -40,7 +42,8 @@
 │   ├── 04_DB_운영/
 │   ├── 05_배포_CICD/
 │   ├── 06_쿠버네티스_클라우드/
-│   └── 07_모니터링_성능점검/
+│   ├── 07_모니터링_성능점검/
+│   └── 08_장애대응/
 └── 구축가이드/
     ├── 1. Nginx/
     ├── 2. DB/
